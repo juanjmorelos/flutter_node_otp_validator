@@ -1,13 +1,13 @@
 # OTP VALIDATOR
 
 ## Descripcion
-El siguiente proyecto es un validador de correo electrónico hecho con Flutter para el Frontend y Node.js para el Backend. En este proyecto se utilizaron las siguientes librerias:
+El siguiente proyecto es un validador de correo electrónico, se utilizó Flutter para el Frontend, Node.js para el Backend y MySQL como gestor de base de datos. En este proyecto se utilizaron las siguientes librerias:
 
 - Nodemailer(Para el envío de emails)
 - mysql2 (Para la conexión con la base de datos MySQL)
 - Dio (Para la realización de solicitudes http)
 
-Este proyecto genera un token de verificación de 6 dígitos lo envía al correo electrónico ingresado y luego verifica que el token ingresado por el usuario sea el que se envió por email.
+Este proyecto genera un token de verificación de 6 dígitos lo envía al correo electrónico ingresado por el usuario en el formulario y luego verifica que el token ingresado por el mismo sea el que se envió por email.
 
 ## Pasos para ejecutar el proyecto
 1. Clona el repositorio utilizando el siguiente comando
