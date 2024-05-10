@@ -7,7 +7,7 @@ El siguiente proyecto es un validador de correo electrónico hecho con Flutter p
 - mysql2 (Para la conexión con la base de datos MySQL)
 - Dio (Para la realización de solicitudes http)
 
-Este proyecto genera un token de verificación de 6 dígitos lo envía al correo electrónico ingresado, luego verifica que el token ingresado por el usuario sea el que se envió por email.
+Este proyecto genera un token de verificación de 6 dígitos lo envía al correo electrónico ingresado y luego verifica que el token ingresado por el usuario sea el que se envió por email.
 
 ## Pasos para ejecutar el proyecto
 1. Clona el repositorio utilizando el siguiente comando
