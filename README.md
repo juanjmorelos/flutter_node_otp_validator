@@ -91,10 +91,10 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     );
     ```
 9. Si estas desarrollando para IOS abre la terminal y ejecuta los siguientes comandos
-  ```bash
-  cd frontend_flutter/ios
-  pod install
-  ```  
+```bash
+cd frontend_flutter/ios
+pod install
+```  
 10. Selecciona el disposivo en el que quieres ejecutar el proyecto con flutter, presiona `F5` para el build y listo!
 
 ## Screenshots
