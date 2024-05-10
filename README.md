@@ -21,7 +21,7 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     npm i
     ```
 
-3. Crea una base de datos, luego en la consola de queries pega el siguiente query para así tener la estructura tabla que espera el node
+3. Crea una base de datos, luego en la consola de queries pega el siguiente query para así tener la estructura de tabla que espera el node
     ```SQL
     CREATE TABLE `users` (
     `userId` int(11) NOT NULL,
@@ -37,7 +37,7 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
     ```
 
-4. Abre el archivo `backend_node/database/database.js` y asegurate de cambiar ingresar el nombre de tu base de datos
+4. Abre el archivo `backend_node/database/database.js` y asegurate de cambiar e ingresar el nombre de tu base de datos
     ```javascript
     const connection = sql.createPool({
         host: 'localhost',
@@ -79,8 +79,8 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     ```
 7. Obtén la dirección IP de tu equipo
     ```bash
-    ipconfig #Windows
-    ifconfig #Linux
+    ipconfig     #Windows
+    ifconfig     #Linux
     networksetup -getinfo wi-fi  #MacOS
     ```
 8. Dirigete al siguiente archivo `frontend_flutter/lib/service/repository/verify_repository_impl.dart` y reemplaza la IP por la de tu equipo
@@ -92,4 +92,6 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     ```
 9. Ejecuta el proyecto flutter con `F5`y listo!
 
-## Screenchots
+## Screenshots
+<img src="screenshots/Screenshot_1.jpg" alt="Lista" width="250"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/Screenshot_2.jpg" alt="Lista" width="250"/> <br/>    
+<img src="screenshots/Screenshot_3.jpg" alt="Lista" width="250"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/Screenshot_4.jpg" alt="Lista" width="250"/>
