@@ -17,7 +17,7 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
 
 2. Utilizando la terminal ingresa a la carpeta backend_node e instala las dependencias
     ```bash
-    cd backend node
+    cd backend_node
     npm i
     ```
 
