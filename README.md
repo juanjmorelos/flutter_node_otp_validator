@@ -71,7 +71,7 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
             html: template(name, token)
         };
 
-    /*código*
+    /*código*/
     ```
 6. Una vez realizado los cambios necesarios en el node.js procede a levantar el servidor 
     ```bash
