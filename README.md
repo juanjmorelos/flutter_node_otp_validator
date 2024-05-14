@@ -83,10 +83,10 @@ Este proyecto genera un token de verificación de 6 dígitos lo envía al correo
     ifconfig     #Linux
     networksetup -getinfo wi-fi  #MacOS
     ```
-8. Dirigete al siguiente archivo `frontend_flutter/lib/service/repository/verify_repository_impl.dart` y reemplaza la IP por la de tu equipo
+8. Dirigete al siguiente archivo `frontend_flutter/lib/service/repository/verify_repository_impl.dart` y reemplaza la IP por la de tu equipo y no olvides poner el puerto
     ```dart
     final dio = Dio(BaseOptions(
-            baseUrl: 'http://xxxxx.xxxxx.xxx/', //Reemplaza por la ip de tu servidor
+            baseUrl: 'http://xxxxx.xxxxx.xxx/', //Reemplaza por la ip de tu servidor y no olvides poner el puerto
         )
     );
     ```
