@@ -5,7 +5,7 @@ import 'package:otp_project/service/datasource/verify_datasource_abstract_class.
 class VerifyRepositoryImpl extends VerifyDatasourceAbstractClass {
 
   final dio = Dio(BaseOptions(
-    baseUrl: 'http://xxxxx.xxxxx.xxx/', //Reemplaza por la ip de tu servidor
+    baseUrl: 'http://xxxxx.xxxxx.xxx/', //Reemplaza por la ip de tu servidor y no olvides poner el puerto
     )
   );
 
